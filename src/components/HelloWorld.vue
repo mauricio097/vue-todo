@@ -94,7 +94,7 @@ export default {
   },
   data() {
     return {
-      name: this.$store.state.name
+      name: this.$store.state.todo.name
     };
   }
 };
